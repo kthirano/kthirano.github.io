@@ -1,0 +1,18 @@
+body {
+  padding-bottom: 40px;
+}
+h1 {
+  font-family: "Kalam", cursive;
+  font-size: 100px;
+}
+h2 {
+  font-family: "Kalam", cursive;
+  font-size: 50px;
+}
+h3 {
+  color: #00a69e;
+}
+
+.section {
+  padding-top: 70px;
+}

@@ -1,1 +1,143 @@
-Hello world
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kohsuke Thomas Hirano</title>
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <!-- our css -->
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <!-- script for bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google font Kalam -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--    make it friendly to mobile devices-->
+    <link rel="icon" href="images/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="my logo" width="40" height="40" />
+          Kohsuke Thomas Hirano
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#overview">Overview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutme">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#links">Links</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container text-center pt-5">
+      <h1>
+        <img src="images/logo.png" alt="my logo" height="100" />Hello, World.
+      </h1>
+    </div>
+
+    <div class="container section" id="overview">
+      <h2>Overview</h2>
+      <p>
+        Hey! My name's Kohsuke Thomas Hirano. You can call me Koh, Thomas,
+        Kohsuke, whatever you want, really. My preferred pronouns are He/Him.
+      </p>
+      <p>
+        In this simple webpage I share a little bit about myself. You can use
+        the top navigation bar to skip to certain sections of the page. Also,
+        I've tried to incorporate Bootstrap to account for different screen
+        sizes. Other than that, this webpage is built solely on HTML/CSS. My
+        hope is that through this webpage, you can learn about me beyond what my
+        resume might show.
+      </p>
+    </div>
+    <div class="container section" id="aboutme">
+      <h2>About me</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <h3>Professional</h3>
+          <p>
+            I wrote my first line of code in 2015, in C++. During my undergrad
+            days (2016-2020), I switched my main language to Python, as most of
+            UCI's Computer Science classes were taught in that language. During
+            that time I began studying other langauges on my own, including but
+            not limited to Java, C#, C, and HTML/CSS.
+            <br />
+            During the 2020 - 2021 Master of Software Engineering program, I
+            began focusing on Java for Android development and algorithm
+            practice. I used Python for either making simple projects or
+            studying deep learning. During the Master's, I was exposed to more
+            languages and frameworks, such as React, TypeScript, JavaScript, R,
+            and SQL.
+          </p>
+        </div>
+        <div class="col-lg-6">
+          <h3>Non-Professional</h3>
+          <p>
+            I'm a bit of an improvement addict. If I'm not trying to improve at
+            coding, I'm trying to lift heavier weights at the gym or trying to
+            defeat better opponents in Super Smash Brothers. My greatest
+            achievements in those two fields are benching two plates and getting
+            30+ characters into Elite Smash.
+          </p>
+          <p>
+            I'm always open to talking! Check out
+            <a href="#links">links</a> for my socials and other links.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container section" id="education">
+      <h2>Education</h2>
+    </div>
+    <div class="container section" id="experience">
+      <h2>Experience</h2>
+    </div>
+    <div class="container section" id="projects">
+      <h2>Projects</h2>
+    </div>
+    <div class="container section" id="links">
+      <h2>Links</h2>
+    </div>
+  </body>
+</html>
