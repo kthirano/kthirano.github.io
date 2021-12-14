@@ -1,18 +1,42 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
 body {
   padding-bottom: 40px;
 }
 h1 {
-  font-family: "Kalam", cursive;
   font-size: 100px;
 }
 h2 {
-  font-family: "Kalam", cursive;
   font-size: 50px;
 }
 h3 {
   color: #00a69e;
 }
+h4 {
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: #00a69e;
+}
+a:hover {
+  color: #fa8072ff;
+}
 
 .section {
   padding-top: 70px;
+}
+p.light {
+  color: silver;
+  font-size: 12px;
+}
+a.social-links {
+  margin-right: 20px;
+}
+div.project-card {
+  padding: 5px;
+  outline: 2px dashed #00a69e;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
