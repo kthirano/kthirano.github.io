@@ -39,7 +39,8 @@ div.project-card {
   padding: 20px;
   margin-top: 10px;
   margin-bottom: 20px;
-  box-shadow: 2px 3px 5px #999;
+  outline: 4px solid #dbf8f6;
+  border-radius: 10px;
 }
 #overview {
   background-color: #dbf8f6;
