@@ -33,10 +33,14 @@ p.light {
 }
 a.social-links {
   margin-right: 20px;
+  font-size: 20px;
 }
 div.project-card {
-  padding: 5px;
+  padding: 10px;
   outline: 2px dashed #00a69e;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+div.project-card:hover {
+  outline: 2px dashed #fa8072ff;
 }
