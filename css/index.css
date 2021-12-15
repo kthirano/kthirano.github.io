@@ -18,7 +18,7 @@ h4 {
 }
 a {
   text-decoration: none;
-  color: #00a69e;
+  color: #00615c;
 }
 a:hover {
   color: #fa8072ff;
@@ -43,4 +43,8 @@ div.project-card {
 }
 div.project-card:hover {
   outline: 2px dashed #fa8072ff;
+}
+
+#test {
+  color: #00615c;
 }
