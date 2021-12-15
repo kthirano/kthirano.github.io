@@ -37,14 +37,7 @@ a.social-links {
 }
 div.project-card {
   padding: 10px;
-  outline: 2px dashed #00a69e;
   margin-top: 10px;
-  margin-bottom: 10px;
-}
-div.project-card:hover {
-  outline: 2px dashed #fa8072ff;
-}
-
-#test {
-  color: #00615c;
+  margin-bottom: 20px;
+  box-shadow: 2px 3px 5px #999;
 }
