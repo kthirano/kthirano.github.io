@@ -42,13 +42,30 @@ div.project-card {
   box-shadow: 2px 3px 5px #999;
 }
 #overview {
-  padding: 200px;
-  background-color: #b6fffb;
+  background-color: #dbf8f6;
 }
-
+.typed-cursor {
+  display: none;
+}
+.title-block ::after {
+  content: "_";
+  animation: blink 0.7s infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 @media (min-width: 769px) {
   .section {
     padding-right: 200px;
     padding-left: 200px;
+  }
+
+  #overview {
+    padding: 200px;
   }
 }

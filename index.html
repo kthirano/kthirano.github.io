@@ -72,11 +72,19 @@
         </div>
       </div>
     </nav>
-    <div class="container text-center pt-5">
-      <h1>
-        <img src="images/logo.png" alt="my logo" height="100" />Hello, World.
-      </h1>
+    <div class="container text-center pt-5 title-block">
+      <img src="images/logo.png" alt="my logo" height="100" />
+      <h1 class="auto-input"></h1>
     </div>
+    <script src="scripts/typed.js"></script>
+    <script>
+      var typed = new Typed(".auto-input", {
+        strings: ["Hello, World."],
+        typeSpeed: 150,
+        backspeed: 50,
+        loop: true,
+      });
+    </script>
 
     <div class="container section" id="overview">
       <h2>Hey!</h2>
@@ -88,9 +96,8 @@
         In this simple webpage I share a little bit about myself. You can use
         the top navigation bar to skip to certain sections of the page. Also,
         I've tried to incorporate Bootstrap to account for different screen
-        sizes. Other than that, this webpage is built solely on HTML/CSS. My
-        hope is that through this webpage, you can learn about me beyond what my
-        resume might show.
+        sizes. My hope is that through this webpage, you can learn about me
+        beyond what my resume might show.
       </p>
     </div>
     <div class="container section" id="aboutme">
@@ -399,6 +406,9 @@
         >Twitter
       </a>
       <a class="social-links" href="mailto: kohthirano@gmail.com">Email </a>
+    </div>
+    <div class="container text-center pt-5 title-block">
+      <img src="images/logo.png" alt="my logo" height="100" />
     </div>
   </body>
 </html>
